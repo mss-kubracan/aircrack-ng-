@@ -1,39 +1,45 @@
 <div align="center">
-  <img src="https://img.shields.io/github/languages/count/keyvanarasteh/Project?style=flat-square&color=blueviolet" alt="Language Count">
-  <img src="https://img.shields.io/github/languages/top/keyvanarasteh/Project?style=flat-square&color=1e90ff" alt="Top Language">
-  <img src="https://img.shields.io/github/last-commit/keyvanarasteh/Project?style=flat-square&color=ff69b4" alt="Last Commit">
-  <img src="https://img.shields.io/github/license/keyvanarasteh/Project?style=flat-square&color=yellow" alt="License">
+  <img src="https://img.shields.io/github/languages/count/mss-kubracan/aircrack-ng-?style=flat-square&color=blueviolet" alt="Language Count">
+  <img src="https://img.shields.io/github/languages/top/mss-kubracan/aircrack-ng-?style=flat-square&color=1e90ff" alt="Top Language">
+  <img src="https://img.shields.io/github/last-commit/mss-kubracan/aircrack-ng-?style=flat-square&color=ff69b4" alt="Last Commit">
+  <img src="https://img.shields.io/github/license/mss-kubracan/aircrack-ng-?style=flat-square&color=yellow" alt="License">
   <img src="https://img.shields.io/badge/Status-Active-green?style=flat-square" alt="Status">
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square" alt="Contributions">
 </div>
 
-# Project Name
-*Proje Adı*
+# Aircrack-ng WiFiGuard
+*Aircrack-ng WiFiGuard*
 
-A brief, engaging description of your project.  
-*Projenizin kısa ve ilgi çekici bir açıklaması.*
-
+ WiFiGuard is a sleek, user-friendly tool built on Aircrack-ng to monitor, analyze, and manage WiFi networks by identifying connected devices and selectively disrupting connections for network testing purposes.
+ 
+WiFiGuard, Aircrack-ng üzerine inşa edilmiş, WiFi ağlarını izlemek, analiz etmek ve yönetmek için kullanıcı dostu, şık bir araçtır; bağlı cihazları tespit eder ve ağ testi amacıyla seçilen bağlantıları keser.
 ---
 
 ## Features / *Özellikler*
 
-- **Feature 1:** Description of the feature.  
-  *Özellik 1: Özelliğin açıklaması.*
-- **Feature 2:** Another cool thing it does.  
-  *Özellik 2: Yaptığı başka bir harika şey.*
-- **Feature 3:** One more for good measure.  
-  *Özellik 3: Ve bir tane daha.*
-- Add more as they develop.  
-  *Geliştikçe daha fazla ekleyin.*
+- Monitor Mode Activation: Seamlessly switches the wireless interface to monitor mode for passive network scanning.  
+ Monitör Moduna Geçiş: Kablosuz arayüzü, pasif ağ taraması için sorunsuz bir şekilde monitör moduna geçirir.
+- Network Discovery: Uses airodump-ng to detect and list all available WiFi networks in the vicinity.
+ Ağ Keşfi: Airodump-ng kullanarak çevrede bulunan tüm WiFi ağlarını tespit eder ve listeler.
+- Network Selection: Allows the user to choose a specific WiFi network by displaying available networks.
+ Ağ Seçimi: Kullanıcıya mevcut ağları göstererek belirli bir WiFi ağını seçme imkanı sunar.
+- Targeted Scanning: Restricts airodump-ng to the selected network’s BSSID and channel for focused analysis.
+ Hedefli Tarama: Airodump-ng’yi seçilen ağın BSSID ve kanalına kısıtlayarak odaklanmış analiz yapar.
+- Device Listing: Displays all devices connected to the selected WiFi network.
+ Cihaz Listeleme: Seçilen WiFi ağına bağlı tüm cihazları listeler.
+- Device Selection & Deauthentication: Enables the user to select a specific device and send deauthentication packets to disconnect     it from the router.
+ Cihaz Seçimi ve Bağlantı Kesme: Kullanıcının belirli bir cihazı seçmesine ve router ile bağlantısını kesmek için deauthentication    paketleri göndermesine olanak tanır.
+-User-Friendly Interface: Simplifies the process with clear prompts for network and device selection, making it accessible for ethical network testing.
+Kullanıcı Dostu Arayüz: Ağ ve cihaz seçimi için net yönlendirmelerle süreci basitleştirir, etik ağ testi için erişilebilir hale getirir.
 
 ---
 
 ## Team / *Ekip*
 
-- **219*****031** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
-- **Another Member** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
+- 2320191092 - Kübra Can :Technical Developer and Script Writer
+  *Kübra Can: Teknik Geliştirici ve Komut Dosyası Yazarı
+- 2320191096 - Ayşe Çamır:  Interface Designer and User Experience Manager
+  *Ayşe Çamır: Arayüz Tasarımcısı ve Kullanıcı Deneyimi Sorumlusu
 - Add more members as needed.  
   *Gerektiğinde daha fazla üye ekleyin.*
 
@@ -124,9 +130,9 @@ Licensed under the [MIT License](LICENSE.md).
 ## Acknowledgements / *Teşekkürler* (Optional)
 
 Thanks to:  
-- Awesome Library: For enabling X.  
-- Inspiration Source.  
-- Special thanks to...  
+- Kübra Can (kubra.can@istinye.edu.tr) Ayşe Çamır (ayse.camir@istinye.edu.tr
+- Istinye Universty
+
 
 *Teşekkürler: Harika kütüphaneler ve ilham kaynakları için.*
 
@@ -134,10 +140,12 @@ Thanks to:
 
 ## Contact / *İletişim* (Optional)
 
-Project Maintainer: [Your Name/Org Name] - [your.email@example.com]  
+Project Maintainer: [Kübra Can] [Ayşe Çamır] - [kubra.can@istinye.edu.tr] [ayse.camir@istinye.edu.tr]    
 Found a bug? Open an issue.  
 
-*Proje Sorumlusu: [Adınız/Kuruluş Adınız] - [e-posta.adresiniz@ornek.com]. Hata bulursanız bir sorun bildirin.*
+*Proje Sorumlusu: [Kübra Can /Istinye Universty] - [kubra.can@istinye.edu.tr] [Ayşe Çamır /Istinye Universty] - [ayse.camir@istinye.edu.tr].
+
+Hata bulursanız bir sorun bildirin.*
 
 ---
 
