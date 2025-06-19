@@ -1,0 +1,20 @@
+dns_servers:
+  - 8.8.8.8
+  - 1.1.1.1
+  - 9.9.9.9
+dns_timeout: 2
+dns_delay: 0.05
+http_timeout: 5
+rate_limit_delay: 0.2
+max_retries: 3
+whitelist_status:
+  - 200
+  - 301
+  - 302
+  - 401
+  - 403
+blacklist_domains:
+  - "*.cloudflare.com"
+  - "*.akamai.net"
+  - "*.fastly.net"
+max_concurrent_tasks: 50
